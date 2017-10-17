@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{725D6647-1CC2-4E50-AC72-078F254BD3A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NekoStoreb</RootNamespace>
+    <AssemblyName>NekoStoreb</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data">
+      <HintPath>F:\ProyectoNekoStore\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity">
+      <HintPath>F:\ProyectoNekoStore\v4.0\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Capturar.cs" />
+    <Compile Include="Consultas.cs" />
+    <Compile Include="Favoritos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Favoritos.Designer.cs">
+      <DependentUpon>Favoritos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CatCollar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CatCollar.Designer.cs">
+      <DependentUpon>CatCollar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="Forms\Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Categoria.Designer.cs">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Configuracion.Designer.cs">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormularioAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormularioAgregar.Designer.cs">
+      <DependentUpon>FormularioAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormularioBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormularioBuscar.Designer.cs">
+      <DependentUpon>FormularioBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormularioLimpiar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormularioLimpiar.Designer.cs">
+      <DependentUpon>FormularioLimpiar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormularioModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormularioModificar.Designer.cs">
+      <DependentUpon>FormularioModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sign up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sign up.Designer.cs">
+      <DependentUpon>Sign up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Favoritos.resx">
+      <DependentUpon>Favoritos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CatCollar.resx">
+      <DependentUpon>CatCollar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Categoria.resx">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Configuracion.resx">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormularioAgregar.resx">
+      <DependentUpon>FormularioAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormularioBuscar.resx">
+      <DependentUpon>FormularioBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormularioLimpiar.resx">
+      <DependentUpon>FormularioLimpiar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormularioModificar.resx">
+      <DependentUpon>FormularioModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sign up.resx">
+      <DependentUpon>Sign up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoINICIO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icocategorias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoFAVORITO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoMI CUENTA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-collar enfermeria estetoscopio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-collar,enfermeria,estetoscopio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-collar,infinite,love.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-collar,enfermeria,estetoscopio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-collar,enfermeria,electrocardiograma.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6-collar,torre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7-collar,corazon,locker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8-collar,harrypotter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9-collar,snitch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10-collar,juegosdelhambre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11-collar,juegosyharrypotter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12-collar,deathnote.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13-collar,934.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14-collar,harrygiroscopio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15-collar,dragonballZ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16-collar,locker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17-collar,fullmetal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18-collar,electrocardiograma.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19-collar,pokemon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20-collar,enfermeriaestetoscopio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21-collar,estetoscopio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22-collar,cristalgotadeagua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23-collar,onepiece.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24-collar,beisball.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25-collar,gotadeaguaazul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26-collar,parejanotamusical.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27-collar,shingekinokiojin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28-collar,infinitelove.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29-collar,religioso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30-collar,pinguino.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31-collar,formadelunagalaxiaazul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32-collar,formadelunestilo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33-collar,formadelunagalaxiapurpura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34-collar,notamusical.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35-collar,atrapasuenos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36-collar,balondefutbol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\37-collar,ank.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38-collar,formabuho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39-llavero,cajadevelocidadesnegro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40-llavero,cajadevelocidadesazul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41-llavero,mecanicomensajepapa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42-llavero,mecanicomartillo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43-llavero,mecanicollaveinglesa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44-llavero,mecanicadesarmador.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45-llavero,strongisbeautiful.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46-llavero,Ican.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\47-llavero,mevsme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48-llavero,parejanotamusical.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49-llavero,flechaycorazon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50-llavero,gatoblack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51-llavero,blancocafe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52-llavero,gatoblanco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53-llavero,parejadoblecorazon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54-llavero,religiosoblack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55-llavero,motocicleta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56-llavero,parejacorazonyllave.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\57-llavero,parejamensajelove.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58-llavero,parejaestilista.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59-llavero,parejabalonytaco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60-brazalete,enfermerianegro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61-brazalete,ebfermeriaceleste.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\62-brazalete,enfermeriacafe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\63-brazalete,infinitelove.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64-brazalete,anclaazul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\65-brazalete,anclanegro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67-brazalete,anclahilos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\68-brazalete,anclareligioso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\69-brazalete,perlasmascristal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\70-brazalete,hilopurpura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71-brazalete,shingekinokiojin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72-brazalete,bleach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73-brazalete,fearytail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74-brazalete,notamusical.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\75-brazalete,conjuntohilos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\76-brazalete,infinitelovehilo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\77-brazalete,infinitelovecristal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\78-collar,enfermeria,electrocardiogramadorado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\79-collar, contenedor de corazon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy-iloveimg-cropped.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen-animada-Lupa-10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen-animada-Archivador-04.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen-animada-Carpeta-14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5b9814bdfb82d110fa392a49b537629310510870_hq.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18e63fd11502476bf00453ba1ae990ce51caba13_hq.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60661a5b6614c42329f1eb3754fc78a26cb452cf_hq.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cora1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_9755.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconoSalir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14674419-fondo-negro-azul-los-colores-oscuros-con-la-vendimia-grunge-textura-de-fondo-manchas-abstractas-y-ma-Foto-de-archivo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

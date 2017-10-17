@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="59-llavero,parejabalonytaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\59-llavero,parejabalonytaco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5b9814bdfb82d110fa392a49b537629310510870_hq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5b9814bdfb82d110fa392a49b537629310510870_hq.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1-collar enfermeria estetoscopio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1-collar enfermeria estetoscopio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="64-brazalete,anclaazul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\64-brazalete,anclaazul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="58-llavero,parejaestilista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\58-llavero,parejaestilista.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Imagen-animada-Lupa-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen-animada-Lupa-10.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="79-collar, contenedor de corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\79-collar, contenedor de corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="23-collar,onepiece" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23-collar,onepiece.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20-collar,enfermeriaestetoscopio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20-collar,enfermeriaestetoscopio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5-collar,enfermeria,electrocardiograma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5-collar,enfermeria,electrocardiograma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10-collar,juegosdelhambre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10-collar,juegosdelhambre.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="65-brazalete,anclanegro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\65-brazalete,anclanegro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="30-collar,pinguino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30-collar,pinguino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="17-collar,fullmetal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17-collar,fullmetal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="47-llavero,mevsme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\47-llavero,mevsme.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="56-llavero,parejacorazonyllave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\56-llavero,parejacorazonyllave.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="54-llavero,religiosoblack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\54-llavero,religiosoblack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icocategorias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icocategorias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="33-collar,formadelunagalaxiapurpura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\33-collar,formadelunagalaxiapurpura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15-collar,dragonballZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15-collar,dragonballZ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="75-brazalete,conjuntohilos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\75-brazalete,conjuntohilos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="46-llavero,Ican" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\46-llavero,Ican.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="27-collar,shingekinokiojin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27-collar,shingekinokiojin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="72-brazalete,bleach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\72-brazalete,bleach.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="24-collar,beisball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24-collar,beisball.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="25-collar,gotadeaguaazul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25-collar,gotadeaguaazul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="40-llavero,cajadevelocidadesazul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\40-llavero,cajadevelocidadesazul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cora1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cora1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy-iloveimg-cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy-iloveimg-cropped.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="37-collar,ank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\37-collar,ank.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="26-collar,parejanotamusical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\26-collar,parejanotamusical.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="43-llavero,mecanicollaveinglesa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\43-llavero,mecanicollaveinglesa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconoSalir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconoSalir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="55-llavero,motocicleta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\55-llavero,motocicleta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="31-collar,formadelunagalaxiaazul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31-collar,formadelunagalaxiaazul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="73-brazalete,fearytail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\73-brazalete,fearytail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13-collar,934" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13-collar,934.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="70-brazalete,hilopurpura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\70-brazalete,hilopurpura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8-collar,harrypotter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8-collar,harrypotter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="42-llavero,mecanicomartillo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42-llavero,mecanicomartillo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icoMI CUENTA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icoMI CUENTA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="52-llavero,gatoblanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\52-llavero,gatoblanco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icoFAVORITO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icoFAVORITO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="67-brazalete,anclahilos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\67-brazalete,anclahilos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="50-llavero,gatoblack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\50-llavero,gatoblack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3-collar,infinite,love" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3-collar,infinite,love.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="76-brazalete,infinitelovehilo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\76-brazalete,infinitelovehilo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="28-collar,infinitelove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\28-collar,infinitelove.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="62-brazalete,enfermeriacafe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\62-brazalete,enfermeriacafe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9-collar,snitch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9-collar,snitch.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="63-brazalete,infinitelove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\63-brazalete,infinitelove.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="57-llavero,parejamensajelove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\57-llavero,parejamensajelove.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7-collar,corazon,locker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7-collar,corazon,locker.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34-collar,notamusical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34-collar,notamusical.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22-collar,cristalgotadeagua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22-collar,cristalgotadeagua.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="68-brazalete,anclareligioso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\68-brazalete,anclareligioso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="44-llavero,mecanicadesarmador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\44-llavero,mecanicadesarmador.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="60661a5b6614c42329f1eb3754fc78a26cb452cf_hq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60661a5b6614c42329f1eb3754fc78a26cb452cf_hq.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="41-llavero,mecanicomensajepapa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\41-llavero,mecanicomensajepapa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="71-brazalete,shingekinokiojin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\71-brazalete,shingekinokiojin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="48-llavero,parejanotamusical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\48-llavero,parejanotamusical.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icoINICIO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icoINICIO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61-brazalete,ebfermeriaceleste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61-brazalete,ebfermeriaceleste.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="77-brazalete,infinitelovecristal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77-brazalete,infinitelovecristal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="38-collar,formabuho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\38-collar,formabuho.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Imagen-animada-Archivador-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen-animada-Archivador-04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12-collar,deathnote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12-collar,deathnote.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35-collar,atrapasuenos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35-collar,atrapasuenos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Imagen-animada-Carpeta-14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen-animada-Carpeta-14.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="49-llavero,flechaycorazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\49-llavero,flechaycorazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14-collar,harrygiroscopio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14-collar,harrygiroscopio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="60-brazalete,enfermerianegro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60-brazalete,enfermerianegro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="74-brazalete,notamusical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\74-brazalete,notamusical.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11-collar,juegosyharrypotter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11-collar,juegosyharrypotter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19-collar,pokemon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19-collar,pokemon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6-collar,torre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6-collar,torre.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21-collar,estetoscopio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21-collar,estetoscopio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4-collar,enfermeria,estetoscopio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4-collar,enfermeria,estetoscopio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="69-brazalete,perlasmascristal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\69-brazalete,perlasmascristal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="32-collar,formadelunestilo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32-collar,formadelunestilo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="39-llavero,cajadevelocidadesnegro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\39-llavero,cajadevelocidadesnegro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18e63fd11502476bf00453ba1ae990ce51caba13_hq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18e63fd11502476bf00453ba1ae990ce51caba13_hq.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="53-llavero,parejadoblecorazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\53-llavero,parejadoblecorazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="51-llavero,blancocafe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51-llavero,blancocafe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18-collar,electrocardiograma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18-collar,electrocardiograma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16-collar,locker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16-collar,locker.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="29-collar,religioso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\29-collar,religioso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45-llavero,strongisbeautiful" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\45-llavero,strongisbeautiful.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36-collar,balondefutbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36-collar,balondefutbol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_9755" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_9755.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2-collar,enfermeria,estetoscopio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2-collar,enfermeria,estetoscopio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="78-collar,enfermeria,electrocardiogramadorado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\78-collar,enfermeria,electrocardiogramadorado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14674419-fondo-negro-azul-los-colores-oscuros-con-la-vendimia-grunge-textura-de-fondo-manchas-abstractas-y-ma-Foto-de-archivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14674419-fondo-negro-azul-los-colores-oscuros-con-la-vendimia-grunge-textura-de-fondo-manchas-abstractas-y-ma-Foto-de-archivo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
